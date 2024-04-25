@@ -1,0 +1,55 @@
+body {
+   /*  background-color: aquamarine;                   Цвет фона */
+   /*  background-color: url("cat.pnd");
+       opacity: 0/5                                     Цвет фона по ссылке, но все внутрение элементы тоже окрашиваются */
+}
+
+.square {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(68, 150, 231);          /* Цвет фона */  
+    padding: 20px;                                 /* Отступы со всех сторон */
+    box-shadow: 1px 2px 2px black;               /* 1 - смещение тени вправо(х), смещение по у, размытость тени , цвет*/
+    text-align: center;                           /* Текст по середине */
+    border-radius: 10px;
+}
+.square-text {
+    color: #ffffff;
+    font-weight: 800;                                /* Жирный тескт */
+    font-size: 24px;                                /* Размер шрифта */
+    text-decoration: underline;                      /* Подчеркивание */
+    text-shadow: 1px 2px 2px black;                /* 1 - смещение тени вправо(х), смещение по у, размытость тени , цвет*/
+    text-transform: uppercase;                       /* Все большие буквы */
+    font-family: Georgia, 'Times New Roman', Times, serif;      /* Формат шрифта */
+    
+}
+
+.pic{
+    padding: 20px;  
+}
+
+.pic-textpic {
+    font-weight: 800; 
+    padding-left: 20px; 
+    padding-top: 10px; 
+    padding-right: 20px; 
+    padding-bottom: 10px; 
+    font-size: 24px; 
+    text-shadow: 1px 1px 1px black; 
+    text-decoration: underline;  
+    text-transform: uppercase;                       /* Все большие буквы */
+    color: rgb(84, 68, 231);                       /* Цвет шрифта */  
+    border-radius: 10px;
+    background-color: #030303
+    
+}
+
+.pic-textpicText {
+    margin-top: 10px;
+    font-style: italic;                                 /* курсив тескт */
+    text-align: justify;                             /* Текст по ширине */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+    background-color: rgb(68, 150, 231); 
+    box-shadow: 1px 2px 2px black; 
+}
