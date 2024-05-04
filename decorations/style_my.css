@@ -1,5 +1,6 @@
 * {
     margin: 0px; /*Убрала все поля со страницы*/
+    padding: 0px;
 }
 
 /*Ольга
@@ -35,6 +36,7 @@
     border-style: solid;
     border-width: 2px;    /*ширина линии*/
     padding-right: 20px;  /*увел ширину от текста до линии*/
+    padding-left: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left: 15px;
@@ -52,6 +54,7 @@
     display: flex;
     justify-content: space-between;
     background-color:rgb(183, 246, 246);
+    
 }
 
 .nav-panel>nav>ul {
@@ -60,6 +63,7 @@
     align-items: center;
     margin: 0;
     padding: 0;
+   
 }
 
 .nav-panel>nav>ul>li>a {
@@ -67,6 +71,7 @@
     padding: 10px;
     border-style: solid;
     border-width: 0.5px;
+    border-color: black;
 }
 
 
@@ -83,7 +88,7 @@
 }
 
 .header {
-    width: 14%;
+    width: 10%;
     background-color: rgba(242, 124, 207, 0.995);
 }
 
@@ -106,4 +111,23 @@
 
 .section {
     width: 82%;
+}
+
+.card>img {
+    width: 250px;
+}
+
+.buy {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: ;
+    }
+
+.card {
+    margin: 1em;
+
+}
+
+.card>img {
+
 }
