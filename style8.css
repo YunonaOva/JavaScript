@@ -1,0 +1,27 @@
+.firmaT {
+    color: #0d11e4;
+    font-weight: 900;                                /* Жирный тескт */
+    font-size: 16px;                                /* Размер шрифта */
+    text-shadow: 1px 2px 2px black;                /* 1 - смещение тени вправо(х), смещение по у, размытость тени , цвет*/
+    text-transform: uppercase;                       /* Все большие буквы */
+    font-family: Georgia, 'Times New Roman', Times, serif;      /* Формат шрифта */
+    padding: 15px;
+    
+}
+
+.text {
+    color: #080000;
+    font-weight: 700;                                /* Жирный тескт */
+    font-size: 20px;                                /* Размер шрифта */
+    font-family: Georgia, 'Times New Roman', Times, serif;      /* Формат шрифта */
+    padding: 15px;
+}
+.workers {
+    color: #080000;
+    font-weight: 700;                                /* Жирный тескт */
+    font-size: 18px;                                /* Размер шрифта */
+    font-family: Georgia, 'Times New Roman', Times, serif;      /* Формат шрифта */
+    padding: 15px;
+}
+
+
