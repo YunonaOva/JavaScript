@@ -1,0 +1,12 @@
+.textspiska {
+    font-style: italic; 
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: #fcbe15c9;
+    align-items: center;
+    width: 300px;
+    
+}
