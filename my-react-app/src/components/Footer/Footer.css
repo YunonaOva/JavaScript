@@ -1,0 +1,12 @@
+.footer {
+    height: 100px;
+    width: 100%;
+   
+}
+
+.footer_title {
+    font-size: 32px;
+    color: rgb(219, 56, 6);
+    text-shadow: 3px 3px 3px 000000;
+
+}

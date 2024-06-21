@@ -1,0 +1,20 @@
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(230, 42, 42);
+}
+
+.header_content {
+    margin: 0;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header_title {
+    font-size: 32px;
+    color: aliceblue;
+    text-shadow: 1px 1px 1px 000000;
+
+}
