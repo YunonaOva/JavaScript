@@ -5,6 +5,7 @@ import ShowAlertButton from './components/ShowAlertButton/ShowAlertButton';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Counter from './components/Counter/Counter';
+import ProductCard from './components/ProductCard/ProductCard';
 
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
      <Header></Header>
      <Counter></Counter>
      <Footer></Footer>
-     
+
+
     </div>
 
   );

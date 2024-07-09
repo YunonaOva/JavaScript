@@ -1,0 +1,227 @@
+* {
+  margin: 0px; /*Убрала все поля со страницы*/
+  padding: 0px;
+}
+
+.text-page {
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  
+}
+
+/*Оглавления*/
+.main-text {
+  font-weight: bold;
+  font-size: large;
+  background-color: ;
+  margin: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  padding-left: 20px;
+  display: block;
+  
+}
+
+/*Основной текст*/
+.conteiner {
+  margin: 10px;
+  padding: 10px;
+}
+/*Содержание*/
+.spisok {
+  display: inline-block;
+  border-style: solid;
+  border-radius: 30px;
+  border-width: 3px;    /*ширина линии*/
+  padding-right: 20px;  /*увел ширину от текста до линии*/
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 15px;
+
+}
+.spisok>p {
+  text-align: center;
+  font-weight: bold;
+ 
+  
+}
+
+                                                                             /*Вверхняя нав. панель*/
+
+.nav-panel {
+  display: flex;
+  justify-content: space-between;
+  background-color:rgba(195, 240, 241, 0.856);
+  
+  
+}
+
+.nav-panel>nav>ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  
+ 
+}
+
+.nav-panel>nav>ul>li>a {                                                              /*верхняя панель*/
+  display: block;
+  padding: 10px;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: black;
+  border-radius: 15px;
+  border-width: 2px; 
+  font-weight: bold; 
+    
+}
+
+
+@media (max-width: 800px) {
+  .nav-panel {
+      flex-direction: column;}
+
+}
+
+
+
+.page {                                                                              /*верхняя панель*/
+  display: flex;
+  height: 100%;
+  
+  /*justify-content: center;*/
+  
+}
+
+.menu {                                                                            /*левая боковая строна*/
+  width: 12%;
+  background-color: rgba(241, 165, 219, 0.995);
+  font-weight: bold;
+  
+  
+}
+
+.menu>ol {
+  list-style: none;
+  margin: 10px;
+  padding: 0px;
+  padding-bottom: 5px;
+  border-bottom-style: solid;
+  border-width: 0.5px;
+   
+}
+
+.menu>div {
+  width: 100%;
+  
+
+}
+.menu>div>img {
+  width: 100%;
+}
+
+
+.section {
+  width: 100%;
+  background-color: rgb(252, 252, 252);
+}
+
+
+.card-decor {
+  margin-inline: 1.5em;
+  
+}
+
+.card-decor>a>img {
+  width: 250px;
+}
+
+.info {
+  text-align: left;
+  padding-left: 30px;
+
+
+}
+
+@media (max-width: 800px) {
+  .buy {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 5px);
+      grid-auto-flow: row;
+      gap: 10px;
+      }
+
+}
+
+@media (max-width: 600px) {
+  .buy {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(3, 5px);
+      grid-auto-flow: row;
+      gap: 10px;
+      }
+ 
+}
+
+
+.text-probel {
+  padding: 10px;
+}
+
+.products-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 800px) {
+  .product {
+    display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(3, 5px);
+      grid-auto-flow: row;
+      gap: 1px;
+  }
+}
+
+@media (max-width: 600px) {
+  .product {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(3, 5px);
+      grid-auto-flow: row;
+      gap: 10px;
+      }
+  }
+
+
+.main {
+  display: flex;
+  align-items: stretch;
+}
+
+.content {
+  overflow: hidden;
+}
+
+.small-image {
+  max-width: 80px;
+  height: auto;
+}
+
+.imegs-form {
+  max-width: 205px;
+  height: auto;
+}
+
+.text-probel {
+
+  font-style: italic; 
+  font-size: 18px;
+
+}
