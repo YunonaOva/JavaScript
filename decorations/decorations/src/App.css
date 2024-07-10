@@ -13,7 +13,7 @@
 /*Оглавления*/
 .main-text {
   font-weight: bold;
-  font-size: large;
+  font-size: 20px;
   background-color: ;
   margin: 10px;
   padding: 10px;
@@ -21,12 +21,14 @@
   padding-left: 20px;
   display: block;
   
+  
 }
 
 /*Основной текст*/
 .conteiner {
   margin: 10px;
   padding: 10px;
+  
 }
 /*Содержание*/
 .spisok {
@@ -77,6 +79,7 @@
   border-radius: 15px;
   border-width: 2px; 
   font-weight: bold; 
+  font-size: 18px;
     
 }
 
@@ -101,6 +104,7 @@
   width: 12%;
   background-color: rgba(241, 165, 219, 0.995);
   font-weight: bold;
+  font-size: 20px;
   
   
 }
@@ -133,11 +137,23 @@
 
 .card-decor {
   margin-inline: 1.5em;
-  
+  max-width: 250px; /* Зафиксируйте максимальную ширину блока */
+  width: 100%; /* Ширина блока займет 100% доступного пространства */
+}
+
+.card {
+  width: 100%; /* Сделайте блок с изображением шириной 100% от родительского блока */
+}
+
+.card a img {
+  width: 100%; /* Сделайте изображение шириной 100% внутри ссылки */
+  height: auto; /* Автоматический расчет высоты для сохранения пропорций */
 }
 
 .card-decor>a>img {
   width: 250px;
+  max-width: 205px;
+  height: auto;
 }
 
 .info {
@@ -172,6 +188,7 @@
 
 .text-probel {
   padding: 10px;
+  
 }
 
 .products-wrapper {

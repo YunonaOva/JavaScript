@@ -8,6 +8,12 @@ import myImageSergi from "../../assets/image_Olga/g_sergi.jpg";
 import myImagebraslet from "../../assets/image_Olga/braslet.webp";
 import myImagePendant from "../../assets/image_Olga/Pendant.jpg";
 import myImagemain from "../../assets/image_Olga/main.jpg";
+import myImageSergi_Izurud from "../../assets/image_Olga/Sergi_Izurud.webp";
+import myImageSergi_Sapfir from "../../assets/image_Olga/sergi_Sapfir.jpg";
+import myImageSergi_mramor from "../../assets/image_Olga/Sergi_mramor.webp";
+
+
+
 
 
 
@@ -27,8 +33,8 @@ function Main () {
             link: "#",
             image: myImageSergi,
             name: "Серьги",
-            nameproduct: "Марамор",
-            price: 500,
+            nameproduct: "Изумруд",
+            price: 1500,
             matter: "***",
             description: "описание"
         },
@@ -36,8 +42,8 @@ function Main () {
             link: "#",
             image: myImageSergi,
             name: "Серьги",
-            nameproduct: "Марамор",
-            price: 500,
+            nameproduct: "Сапфир",
+            price: 1300,
             matter: "***",
             description: "описание"
         },
@@ -45,8 +51,8 @@ function Main () {
             link: "#",
             image: myImageSergi,
             name: "Серьги",
-            nameproduct: "Марамор",
-            price: 500,
+            nameproduct: "Гранат",
+            price: 900,
             matter: "***",
             description: "описание"
         },
@@ -54,8 +60,8 @@ function Main () {
             link: "#",
             image: myImageSergi,
             name: "Серьги",
-            nameproduct: "Марамор",
-            price: 500,
+            nameproduct: "Рубин",
+            price: 2500,
             matter: "***",
             description: "описание"
         }
@@ -75,8 +81,8 @@ function Main () {
           link: "#",
           image: myImagebraslet,
           name: "Браслет",
-          nameproduct: "Гвоздь",
-          price: 500,
+          nameproduct: "Стиль",
+          price: 1500,
           matter: "***",
           description: "описание"
       },
@@ -84,8 +90,8 @@ function Main () {
           link: "#",
           image: myImagebraslet,
           name: "Браслет",
-          nameproduct: "Гвоздь",
-          price: 500,
+          nameproduct: "Восторг",
+          price: 1800,
           matter: "***",
           description: "описание"
       },
@@ -93,8 +99,8 @@ function Main () {
           link: "#",
           image: myImagebraslet,
           name: "Браслет",
-          nameproduct: "Гвоздь",
-          price: 500,
+          nameproduct: "Вдохновение",
+          price: 2000,
           matter: "***",
           description: "описание"
       },
@@ -102,8 +108,8 @@ function Main () {
           link: "#",
           image: myImagebraslet,
           name: "Браслет",
-          nameproduct: "Гвоздь",
-          price: 500,
+          nameproduct: "Радость",
+          price: 2500,
           matter: "***",
           description: "описание"
       }
@@ -114,7 +120,7 @@ function Main () {
       link: "#",
       image: myImage,
       name: "Цепочка",
-      nameproduct: "Гвоздь",
+      nameproduct: "18 дюймов",
       price: 500,
       matter: "***",
       description: "описание"
@@ -123,6 +129,24 @@ function Main () {
         link: "#",
         image: myImage,
         name: "Цепочка",
+        nameproduct: "20 дюймов",
+        price: 500,
+        matter: "***",
+        description: "описание"
+    },
+    {
+        link: "#",
+        image: myImage,
+        name: "Цепочка",
+        nameproduct: "22 дюймов",
+        price: 500,
+        matter: "***",
+        description: "описание"
+    },
+    {
+        link: "#",
+        image: myImage,
+        name: "24 дюймов",
         nameproduct: "Гвоздь",
         price: 500,
         matter: "***",
@@ -132,25 +156,7 @@ function Main () {
         link: "#",
         image: myImage,
         name: "Цепочка",
-        nameproduct: "Гвоздь",
-        price: 500,
-        matter: "***",
-        description: "описание"
-    },
-    {
-        link: "#",
-        image: myImage,
-        name: "Цепочка",
-        nameproduct: "Гвоздь",
-        price: 500,
-        matter: "***",
-        description: "описание"
-    },
-    {
-        link: "#",
-        image: myImage,
-        name: "Цепочка",
-        nameproduct: "Гвоздь",
+        nameproduct: "26 дюймов",
         price: 500,
         matter: "***",
         description: "описание"
@@ -162,7 +168,7 @@ const productPendant = [
     link: "#",
     image: myImagePendant,
     name: "Подвеска",
-    nameproduct: "Гвоздь",
+    nameproduct: "Роза",
     price: 500,
     matter: "***",
     description: "описание"
@@ -171,8 +177,8 @@ const productPendant = [
       link: "#",
       image: myImagePendant,
       name: "Подвеска",
-      nameproduct: "Гвоздь",
-      price: 500,
+      nameproduct: "Тюльпан",
+      price: 550,
       matter: "***",
       description: "описание"
   },
@@ -180,8 +186,8 @@ const productPendant = [
       link: "#",
       image: myImagePendant,
       name: "Подвеска",
-      nameproduct: "Гвоздь",
-      price: 500,
+      nameproduct: "Орхидея",
+      price: 1500,
       matter: "***",
       description: "описание"
   },
@@ -189,8 +195,8 @@ const productPendant = [
       link: "#",
       image: myImagePendant,
       name: "Подвеска",
-      nameproduct: "Гвоздь",
-      price: 500,
+      nameproduct: "Гвоздика",
+      price: 1600,
       matter: "***",
       description: "описание"
   },
@@ -198,8 +204,8 @@ const productPendant = [
       link: "#",
       image: myImagePendant,
       name: "Подвеска",
-      nameproduct: "Гвоздь",
-      price: 500,
+      nameproduct: "Подснежник",
+      price: 1700,
       matter: "***",
       description: "описание"
   }
@@ -282,10 +288,10 @@ const productPendant = [
                 
             
                     <ol>                 
-                        <li><a href="#" Перенести на>Серьги</a></li>
-                        <li><a href="#" Перенести на>Браслеты</a></li>
-                        <li><a href="#" Перенести на>Цепочки</a></li>
-                        <li><a href="#" Перенести на>Подвески</a></li>
+                        <li><a href="#ssSergi" Перенести на>Серьги</a></li>
+                        <li><a href="#ssbraslet" Перенести на>Браслеты</a></li>
+                        <li><a href="#ssCh" Перенести на>Цепочки</a></li>
+                        <li><a href="#ssPendant" Перенести на>Подвески</a></li>
 
                     </ol>
                 </div> 
@@ -311,23 +317,24 @@ const productPendant = [
                     
                 <div class="spisok">
                 <p>Содержание</p>
+                <br></br>
                     <div>
                         <ul>                 
-                            <li><a href="#" Перенести на>Серьги</a></li>
+                             <li><a href="#ssSergi" Перенести на> Серьги </a></li>
                             <img class="small-image" src={myImageSergi}  alt="Картинка с серьгами"></img>
                         </ul>
                         <ul>
-                            <li><a href="#" Перенести на>Браслеты</a></li>
+                             <li><a href="#ssbraslet" Перенести на>Браслеты</a></li>
                             <img class="small-image" src={myImagebraslet} alt="Картинка с браслетами"></img>
                         </ul>
                     </div>
                     <div>
                         <ul>
-                            <li><a href="#" Перенести на>Цепочки</a></li>
+                            <li><a href="#ssCh" Перенести на>Цепочки</a></li>
                             <img class="small-image" src= {myImage} alt="Картинка с цепочками"></img>
                         </ul>
                         <ul>
-                            <li><a href="#" Перенести на>Подвески</a></li>
+                             <li><a href="#ssPendant" Перенести на>Подвески</a></li>
                             <img class="small-image" src={myImagePendant} alt="Картинка с подвесками"></img>
                         </ul>
                     </div>
