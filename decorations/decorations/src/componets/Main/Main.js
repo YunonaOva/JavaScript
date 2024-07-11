@@ -31,7 +31,7 @@ function Main () {
         },
         {
             link: "#",
-            image: myImageSergi,
+            image: myImageSergi_Izurud,
             name: "Серьги",
             nameproduct: "Изумруд",
             price: 1500,
@@ -321,21 +321,29 @@ const productPendant = [
                     <div>
                         <ul>                 
                              <li><a href="#ssSergi" Перенести на> Серьги </a></li>
-                            <img class="small-image" src={myImageSergi}  alt="Картинка с серьгами"></img>
+                             <div class="small-image-wrapper">
+                                <img class="small-image" src={myImageSergi}  alt="Картинка с серьгами"></img>
+                             </div>
                         </ul>
                         <ul>
                              <li><a href="#ssbraslet" Перенести на>Браслеты</a></li>
-                            <img class="small-image" src={myImagebraslet} alt="Картинка с браслетами"></img>
+                             <div class="small-image-wrapper">
+                                <img class="small-image" src={myImagebraslet} alt="Картинка с браслетами"></img>
+                             </div>
                         </ul>
                     </div>
                     <div>
                         <ul>
                             <li><a href="#ssCh" Перенести на>Цепочки</a></li>
-                            <img class="small-image" src= {myImage} alt="Картинка с цепочками"></img>
+                            <div class="small-image-wrapper">
+                                <img class="small-image" src= {myImage} alt="Картинка с цепочками"></img>
+                            </div>
                         </ul>
                         <ul>
                              <li><a href="#ssPendant" Перенести на>Подвески</a></li>
-                            <img class="small-image" src={myImagePendant} alt="Картинка с подвесками"></img>
+                             <div class="small-image-wrapper">
+                                <img class="small-image" src={myImagePendant} alt="Картинка с подвесками"></img>
+                             </div>
                         </ul>
                     </div>
                 </div>
